@@ -1,0 +1,183 @@
+
+h1 {
+font-family: lapture display;
+font-size: 70px;
+color: #0517e8;
+}
+
+h2 {
+  font-family: lapture display;
+  font-size: 30px;
+  color: #f8c6d3;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+header {
+    background-image: url(images/NICE.gif);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 50%;
+    background-position: 50% 75%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.header-content {
+  background-color: rgba (255,255,255,0,5)
+  padding: 2em;
+}
+
+.header-content h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+.header-content p {
+  font-family: 'lapture display';
+  font-size: 2em;
+  color:#f8c6d3;
+  text-align: center;
+}
+
+#section01 {
+  padding: 2em;
+  font-family: gotham;
+  font-weight: lighter;
+}
+
+
+#section02 {
+  padding: 2em;
+  font-family: gotham;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#section03 {
+  padding: 2em;
+  font-family: gotham;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.bio {
+
+}
+
+.languages {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.languages ul{
+  padding: 0px;
+}
+
+.softwares {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.softwares ul {
+  padding: 0px;
+}
+
+.comp-content {
+}
+
+.wcid {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.wcid ul {
+  padding: 0px;
+}
+
+.portfolio {
+
+}
+
+.project {
+margin: 30px;
+}
+
+.project img {
+width: 400px;
+height: 200px;
+object-fit: cover;
+overflow: hidden;
+}
+
+.Linkedin {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.Behance {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.Instagram {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.link-unactive {
+  text-decoration: none;
+  color: black;
+}
+
+.section02-content {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.section03-content {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  flex-wrap: wrap;
+
+}
+
+.fa-perso {
+  font-size: 87px !important;
+}
+
+.fa-social {
+  margin-bottom: 15px;
+}
+
+footer{
+  padding: 2em;
+  font-family: gotham;
+  font-weight: lighter;
+}
