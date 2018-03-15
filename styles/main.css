@@ -14,7 +14,7 @@ h2 {
 }
 
 header {
-    background-image: url(images/NICE.gif);
+    background-image: url(images/nice.gif);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 50%;
@@ -168,6 +168,14 @@ overflow: hidden;
 
 }
 
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  flex-wrap: wrap;
+
+}
+
 .fa-perso {
   font-size: 87px !important;
 }
@@ -176,8 +184,13 @@ overflow: hidden;
   margin-bottom: 15px;
 }
 
+img {
+  height: 200px;
+  weight : 100px;
+}
+
 footer{
   padding: 2em;
   font-family: gotham;
-  font-weight: lighter;
-}
+  font-weight: lighter
+  ;}
